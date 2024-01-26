@@ -1,0 +1,6 @@
+streamlit
+pillow
+torch
+nn
+torchvision
+transforms
