@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
 
+
 class ImageClassificationBase(nn.Module):
 
     def training_step(self, batch):
@@ -81,7 +82,7 @@ else:
 
 # Create an instance of your model
 # (Replace 'YourModelClass' with the actual class name of your model)
-model = SimpleResidualBlock()
+model = ImageClassificationBase()
 
 # Load the state dictionary into the model
 # Assuming 'model' is an instance of ImageClassificationBase
